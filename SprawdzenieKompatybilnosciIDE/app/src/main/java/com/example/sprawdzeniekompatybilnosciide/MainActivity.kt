@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-        Toast.makeText(this, "Aplikacja działa", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "zmieniełem tekst po skolonowaniu z repo", Toast.LENGTH_SHORT).show()
         var textView :TextView = this.findViewById(R.id.textView)
         textView.setText("Wszystko działa")
 
